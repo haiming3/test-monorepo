@@ -25,7 +25,7 @@ do
 
     # The rest shouldn't need changing.
     temp_repo=$(mktemp -d)
-    temp_branch=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 20 | head -n 1)
+    temp_branch=$RANDOM
 
     # Checkout the old repository, make it safe and checkout a temp branch
     git clone ${source_repository} ${temp_repo}
@@ -45,6 +45,6 @@ do
     git push -u remote ${temp_branch}:${destination_branch}
 
     # Cleanup
-    rm -rf ${temp_repo}
+    #rm -rf ${temp_repo}
 done
 
