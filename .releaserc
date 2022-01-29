@@ -33,13 +33,6 @@
             ]
           }
         }],
-        "@semantic-release/changelog",
-        [
-            "@semantic-release/git",
-            {
-                "message": "chore: generate CHANGELOG.md for api v${nextRelease.version}"
-            }
-        ],
         "@semantic-release/github"
     ]
 }
