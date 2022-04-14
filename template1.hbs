@@ -45,11 +45,11 @@
     {{~else}}
       {{~@root.repoUrl}}
     {{~/if}}/
-    {{~@root.issue}}/{{this.issue}})
+    {{~@root.issue}}/000000000{{this.issue}})
   {{~else}}
     {{~#if this.owner}}
       {{~this.owner}}/
     {{~/if}}
-    {{~this.repository}}#00000{{this.issue}}
+    {{~this.repository}}#{{this.issue}}
   {{~/if}}{{/each}}
 {{~/if}}
