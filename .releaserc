@@ -30,7 +30,7 @@
               {"type": "test", "section": "Test", "hidden": true},
               {"type": "docs", "section": "Docs", "hidden": true}
             ],
-          "releaseCommitMessageFormat": {{currentTag}}
+          "releaseCommitMessageFormat": "chore(release): {{currentTag}}"
           }
         }],
         "@semantic-release/github"
