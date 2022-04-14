@@ -28,7 +28,7 @@ module.exports = {
     'subject-full-stop': [0, 'never'],
     'subject-case': [0, 'never'],
     'subject-empty': [2, 'never'],
-    'subject-min-length': [2, 'always', 1],
+    'subject-min-length': [2, 'always', 2],
     'references-empty': [2, 'never'],
     'header-max-length': [0, 'always', 72]
   },
