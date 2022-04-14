@@ -29,7 +29,8 @@
               {"type": "chore", "section": "Chore", "hidden": true},
               {"type": "test", "section": "Test", "hidden": true},
               {"type": "docs", "section": "Docs", "hidden": true}
-            ]
+            ],
+          "releaseCommitMessageFormat": {{currentTag}}
           }
         }],
         "@semantic-release/github"
