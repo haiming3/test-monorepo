@@ -7,6 +7,7 @@
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
+    "commitlint-plugin-subject-references": "^0.1.1",
     "husky": "^3.0.7"
   }
 }

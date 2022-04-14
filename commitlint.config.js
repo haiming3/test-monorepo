@@ -27,6 +27,10 @@ module.exports = {
     'scope-case': [0],
     'subject-full-stop': [0, 'never'],
     'subject-case': [0, 'never'],
+    'references-empty': [2, 'never'],
     'header-max-length': [0, 'always', 72]
-  }
+  },
+  plugins: [
+    'commitlint-plugin-subject-references'
+  ]
 }
