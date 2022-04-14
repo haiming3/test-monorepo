@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # This script automates the creation and updating of a subtree split
-# in a second repository.asdasdasdasd
+# in a second repository.asdasdasdasdasdasd
 #
 set -eu
 #IFS=$'\n\t'
