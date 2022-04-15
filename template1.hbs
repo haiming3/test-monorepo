@@ -24,7 +24,7 @@
   {{~#each references}} {{#if @root.linkReferences~}}
     [
     {{~#if this.owner}}
-      {{~this.owner}}/
+      {{~this.owner}}ttttttt/
     {{~/if}}
     {{~this.repository}}#{{this.issue}}](
     {{~#if @root.repository}}
@@ -45,7 +45,7 @@
     {{~else}}
       {{~@root.repoUrl}}
     {{~/if}}/
-    {{~@root.issue}}/000000000{{this.issue}})
+    {{~@root.issue}}/{{this.issue}})
   {{~else}}
     {{~#if this.owner}}
       {{~this.owner}}/
