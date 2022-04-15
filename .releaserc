@@ -30,7 +30,7 @@
               {"type": "test", "section": "Test", "hidden": true},
               {"type": "docs", "section": "Docs", "hidden": true}
             ],
-            "issueUrlFormat": 'https://dev.azure.com/${REPLACE_WITH_ORGANIZATION_NAME}/${REPLACE_WITH_PROJECT_NAME}/_workitems/edit/{{id}}'
+            "issueUrlFormat": 'https://app.asana.com/0/{{id}}/f'
           }
         }],
         "@semantic-release/github"
