@@ -29,9 +29,9 @@
               {"type": "chore", "section": "Chore", "hidden": true},
               {"type": "test", "section": "Test", "hidden": true},
               {"type": "docs", "section": "Docs", "hidden": true}
-            ]
-          },
-          "commitPartial": "commit.hbs"
+            ],
+            "issueUrlFormat": 'https://dev.azure.com/${REPLACE_WITH_ORGANIZATION_NAME}/${REPLACE_WITH_PROJECT_NAME}/_workitems/edit/{{id}}'
+          }
         }],
         "@semantic-release/github"
     ]
