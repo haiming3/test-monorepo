@@ -14,6 +14,11 @@ module.exports = {
   extends: [
     '@commitlint/config-conventional'
   ],
+  parserPreset: {
+    parserOpts: {
+      issuePrefixes: ["http"]
+    }
+  },
   rules: {
     'type-enum': [2, 'always', [
       'feat', 'data', 'fix', 'enh', 'refactor', 'perf', 'chore', 'test', 'docs', 'major'
