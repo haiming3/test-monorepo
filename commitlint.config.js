@@ -16,7 +16,7 @@ module.exports = {
   ],
   parserPreset: {
     parserOpts: {
-      issuePrefixes: ["http"]
+      issuePrefixes: ['https://app.asana.com/']
     }
   },
   rules: {
@@ -46,7 +46,7 @@ module.exports = {
           const HELLO_WORLD = 'Hello World';
           return [
             references.includes(HELLO_WORLD),
-            `Your subject should contain ${JSON.stringify(references)} message`,
+            `Your subjectdddd should contain ${JSON.stringify(references)} message`,
           ];
         },
       },
