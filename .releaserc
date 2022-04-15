@@ -30,7 +30,7 @@
               {"type": "test", "section": "Test", "hidden": true},
               {"type": "docs", "section": "Docs", "hidden": true}
             ],
-            commitPartial: "commit.hbs"
+            "commitPartial": "commit.hbs"
           }
         }],
         "@semantic-release/github"
