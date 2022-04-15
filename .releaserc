@@ -30,7 +30,8 @@
               {"type": "test", "section": "Test", "hidden": true},
               {"type": "docs", "section": "Docs", "hidden": true}
             ],
-            "issueUrlFormat": 'https://app.asana.com/0/{{id}}/f'
+            "issuePrefixes": ['AB#'],
+            "issueUrlFormat": 'https://app.asana.com/0/{{id}}'
           }
         }],
         "@semantic-release/github"

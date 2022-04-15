@@ -30,9 +30,21 @@ module.exports = {
     'subject-empty': [2, 'never'],
     'subject-min-length': [2, 'always', 10],
     'references-empty': [2, 'never'],
+    'hello-world-rule': [0, 'always'],
     'header-max-length': [0, 'always', 72]
   },
   plugins: [
-    'commitlint-plugin-subject-references'
+    'commitlint-plugin-subject-references',
+    {
+      rules: {
+        'hello-world-rule': ({references}) => {
+          const HELLO_WORLD = 'Hello World';
+          return [
+            references.includes(HELLO_WORLD),
+            `Your subject should contain ${JSON.stringify(references)} message`,
+          ];
+        },
+      },
+    }
   ]
 }
