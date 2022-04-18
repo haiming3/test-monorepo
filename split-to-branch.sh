@@ -12,7 +12,7 @@ source_list_file=$1
 
 # Adjust for your repositories.
 source_repository=https://github.com/haiming3/test-monorepo.git
-source_branch=main
+source_branch=maindddd
 
 
 cat $source_list_file | while read line
