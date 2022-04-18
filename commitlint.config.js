@@ -34,7 +34,7 @@ module.exports = {
     'subject-case': [0, 'never'],
     'subject-empty': [2, 'never'],
     'subject-min-length': [0, 'always', 10],
-    'references-empty': [2, 'never'],
+    'references-empty': [0, 'never'],
     'header-max-length': [0, 'always', 72]
   },
   plugins: [
