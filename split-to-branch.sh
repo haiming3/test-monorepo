@@ -8,7 +8,7 @@ set -eu
 
 command -v splitsh-lite >/dev/null 2>&1 || { echo "$0 requires splitsh-lite but it's not installed.  Aborting." >&2; exit 1; }
 
-source_list_file=$1
+source_list_file=$1asdasd
 
 # Adjust for your repositories.
 source_repository=https://github.com/haiming3/test-monorepo.git
