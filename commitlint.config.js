@@ -16,7 +16,7 @@ module.exports = {
   ],
   parserPreset: {
     parserOpts: {
-      issuePrefixes: ['https://app.asana.com/', 'nota']
+      issuePrefixes: ['https://app.asana.com/', '#']
     }
   },
   rules: {
