@@ -30,7 +30,7 @@ do
     # Checkout the old repository, make it safe and checkout a temp branch
     git clone ${source_repository} ${temp_repo}
     cd ${temp_repo}
-    git checkout ${source_branch}
+    git checkout ${source_branch}adasdas
     git remote remove origin
     git checkout -b ${temp_branch}
 
